@@ -1,0 +1,18 @@
+{
+  "name": "nftmerkletree",
+  "version": "1.0.0",
+  "description": "Setup merkle-tree for your NFT sale",
+  "main": "npx ts-node index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node index.ts"
+  },
+  "author": "terncrypto",
+  "license": "ISC",
+  "dependencies": {
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.32",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
